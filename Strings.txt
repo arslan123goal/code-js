@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>strings and strings method</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <div id="content">
+
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius quae iste ipsum blanditiis eveniet quaerat animi aperiam necessitatibus aliquid alias commodi consequuntur, et, enim itaque architecto deserunt nulla voluptates repudiandae? Sapiente vero tempora temporibus?</p>
+    </div>
+    <script>
+        // var string = "this";
+        // var string = "thi's";   // use single quote in double quote
+
+        // var string = 'this';
+        var string = 'thi"s';      // use double quote in single quote
+        // console.log(string);
+        
+        var channel = "Code cpp";
+        var name = "Arslan";
+        var message = "Arslan is a good boy";
+        // console.log(string + name + message);
+
+        var temp = `${name} is a very 'nice' person and he has a "repository" on github called ${channel}`;
+        console.log(temp);
+
+        var len = name.length;
+        // console.log(`Length of name is ${len}`);
+
+        // console.log("\\nHello \n w \t orl \b d");
+
+        var y = new String("this")
+        // console.log(y);
+
+        document.getElementById('content').innerHTML = '<h3> This is an h3 heading <h3>';
+    </script>
+</body>
+</html>
