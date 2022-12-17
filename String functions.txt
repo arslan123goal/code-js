@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String functions</title>
+</head>
+<body>
+    
+    <script>
+        var str = "This is a string";
+        console.log(str);
+        
+        var position = str.indexOf('is'); // first occurence of a substring
+        // console.log(position);
+
+        position = str.lastIndexOf('is'); // last occurence of a substring
+        // console.log(position);
+
+        // subString from a string
+        // var substr = str.slice(1,6); //it can take negative values // print from index 1  to index 5
+
+        var substr = str.substring(1,6);  // it can't take negative values
+        // console.log(substr);
+
+        var substr1 = str.substr(1,6);
+        // console.log(substr1);      // prints from index 1 to index 6
+
+        var replaced = str.replace('string','Arslan');  // replace a word in str string and var str string remains unchanged
+        // console.log(str);
+        // console.log(replaced);
+
+        // console.log(str.toUpperCase());
+        // console.log(str.toLowerCase());
+
+        var newString = str.concat('New String');
+        // console.log(newString);
+
+        var strWithWhiteSpaces = "      This contains        whitespaces            ";
+        // console.log(strWithWhiteSpaces);
+        // console.log(strWithWhiteSpaces.trim());  //remove whitespaces from start and end
+
+        // var char3 = str.charAt(2);   // prints the characetr at index 2
+        var char3 = str.charCodeAt(2);
+        // console.log(char3);
+
+        console.log(str[2]);
+    </script>
+</body>
+</html>
