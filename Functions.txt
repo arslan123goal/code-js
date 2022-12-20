@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    <div class="container">
+        This is container
+    </div>
+    <!-- <script src="Functions.js"></script> -->
+    <script>
+        console.log("This is javascript");
+
+        function greet(name, greetText = "Greeting from js") {
+            let name1 = "Name1";   // local scope variable
+            console.log(greetText);
+            console.log(name + " is a good boy");
+        }
+
+        function sum(a, b, c) {
+            let d = a + b + c;
+            return d;
+            // unreachable code
+            console.log("any text after returning from a function is not gonna show in console/output");
+        }
+
+        let name1 = "Arslan";
+        let name2 = "Ali";
+        let name3 = "Adil";
+        let name4 = "Usman";
+        let text = "Good morning";
+
+        // console.log(name1 + " is a good boy");
+        // console.log(name2 + " is a good boy");
+        // console.log(name3 + " is a good boy");
+        // console.log(name4 + " is a good boy");
+
+        greet(name1, text);
+        greet(name2, text);
+        greet(name3, text);
+        greet(name4);
+
+        // let returnVAl = greet(name3);
+        // console.log(returnVAl);
+
+        // console.log(sum(1,2,3));
+
+        // let vari = sum(1,2,3);
+        // console.log(vari);
+
+        let a = 2, b = 1, c = 3;
+        console.log(sum(a, b, c));
+    </script>
+</body>
+
+</html>
