@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaction</title>
+</head>
+<body>
+    <div class="container">
+        This is a page
+    </div>
+    <script>
+        // --> Alert is used to show some message on user's window
+        // Alert in in-browser javascript - doesn't return anything
+
+        // alert("This is a message");
+
+        // --> Prompt is used to ask a question from user
+        // let name = prompt("What is your name");
+
+        // first is message and second is default value
+        // prompt("Enter your age");
+        // let name = prompt("What is your name" , "Guest");
+        // console.log(name);
+
+        // confirm is used to clear some action that user is gonig to done
+        // confirm("Are you 18+");
+        let deletePost = confirm("Do you really want to delete this repository");
+        // console.log(deletePost);
+        if(deletePost)
+        {
+            console.log("Your repo has been deleted");
+        }
+        else
+        {
+            console.log("Your repo has not been deleted");
+        }
+    </script>
+</body>
+</html>
