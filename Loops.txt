@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+<body>
+    <div class="container">
+        This is about Loops
+    </div>
+    <script>
+        console.log("For,while,do-while and for-each loops");
+
+        // let i=0;
+        // for(i=0; i<3; i++)
+        // {
+            // console.log(i);
+        // }
+
+        let students = ['Arslan','Ali','Adil','Shafeeq','Rafeeq'];
+
+        // --> for loop
+        // for (let index = 0; index < students.length; index++) {
+        //     // const element = students[index];
+        //     console.log("Hello! "+students[index]);
+        // }
+        
+        // --> for each loop
+        // students.forEach(function func(element)
+        // {
+        //     console.log("Hello! "+ element);
+        // });
+        
+        // --> for of loop
+        // for(element of students)
+        // {
+        //     console.log("Welcome "+ element + " to javascript");
+        // }
+
+        let employee = {
+            name : "Arslan",
+            Rno : 10,
+            dept : "CS",
+        }
+
+        // --> for in loop to iterate in object
+        // for(key in employee)
+        // {
+        //     console.log(`The ${key} of employee is ${employee[key]}`);
+        // }
+
+        // --> While loop
+        let k=0;
+        // while(k < 4)
+        // {
+        //     console.log(`${k} is less than 4`);
+        //     k++;
+        // }
+
+        // --> do-while loop
+        let x=0;
+        do
+        {
+            console.log(`${x} is less than condition`);
+            x++;
+        }
+        while(x<4);
+    </script>
+</body>
+</html>
