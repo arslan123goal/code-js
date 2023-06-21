@@ -1,3 +1,12 @@
+console.log("This video contains code for variables");
+let a = 67;
+console.log(a);
+a = "Aarry";
+console.log(a);
+// let 13Aarry = 7;    // not allowed
+// let console = 12;   // console word is reserved 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
