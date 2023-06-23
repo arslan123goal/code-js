@@ -1,0 +1,16 @@
+console.log("var is globally scoped");
+console.log("let and const are block scoped");
+
+var a = 45;
+var a = "p"
+// var b = "Aarry"
+let b = "Aarry";
+let c = null;
+let d = undefined;
+const author = "Aarry"  // const can't be redeclared or re defined
+{
+  // var b = "this"  // this will update the upper b value
+  let b = "this";
+  console.log(b);
+}
+console.log(b);
