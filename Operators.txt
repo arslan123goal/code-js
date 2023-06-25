@@ -1,0 +1,47 @@
+console.log("Operators in JS");
+let a = 19;
+let b = 4;
+
+// Arithmetic Operator
+console.log("a + b = ", a+b);
+console.log("a - b = ", a-b);
+console.log("a / b = ", a/b);
+console.log("a * b = ", a*b);
+console.log("a ** b = ", a**b);  // a power b
+console.log("a & b = ", a%b);   // returns the remainder
+
+console.log("a++", a++);  // increment operator
+console.log(a);
+console.log("a--", a--);  // decrement operator
+console.log(a);
+
+console.log("++a", ++a);  // increment operator
+console.log(a);
+console.log("--a", --a);  // decrement operator
+console.log(a);
+
+// Assignment Operator
+
+m = 8;
+// m = m + 5; - same as line 27
+console.log(m);
+m += 5;
+console.log(m);
+
+// Comparison Operator
+let x = 6;
+let y = 7;
+// let y = "7";
+console.log("x == y is", x==y);
+console.log("x != y is", x!=y);
+console.log("x === y is", x===y);
+console.log("x !== y is", x!==y);
+console.log("x > y is", x>y);
+
+// Logical Opertors - operates on boolean
+
+let ar = 5;
+let ma = 6;
+console.log(ar < ma && ar == 5);
+console.log(ar > ma || ar == 5);
+console.log(!false);
