@@ -1,0 +1,34 @@
+const greet = ()=>
+{
+  console.log("Hello");
+  return "Hi";
+}
+
+function avg(x, y)
+{
+  console.log("Done");
+  return 1 + (x+y)/2;
+}
+
+const sum = (a,m)=>
+  {
+    return a + m;
+  }
+
+let a = 1;
+let b = 2;
+let c = 3;
+
+// console.log("One plus Average of a and b is ", 1 + (a+b)/2);
+console.log("One plus Average of a and b is ", avg(a,b));
+
+// console.log("One plus Average of b and c is ",1 + (b+c)/2);
+console.log("One plus Average of b and c is ", avg(b,c));
+
+// console.log("One plus Average of c and a is ",1 + (c+a)/2);
+console.log("One plus Average of c and a is ", avg(c,a));
+
+console.log(sum(9,7));
+// greet();
+let v = greet();
+console.log(v);
