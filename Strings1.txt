@@ -1,0 +1,18 @@
+let name = "Aarry";
+// console.log(name.length);
+console.log(name[0]);
+console.log(name[1]);
+let friend = 'Marry';
+console.log(friend);
+
+// Template litearls
+let boy1 = "Shafil";
+let boy2 = "Rhafil";
+
+let sen = `${boy1} is a friend of ${boy2}`;
+console.log(sen);
+
+// Escape sequence Characters
+let fruit = 'Bana\'na';
+console.log(fruit);
+console.log(fruit.length);
