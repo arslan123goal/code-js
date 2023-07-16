@@ -1,0 +1,16 @@
+let marks = [65, 82, 93, 74, null, "Not Present"];
+console.log(marks);
+console.log(marks[0]);
+console.log(marks[1]);
+console.log(marks[2]);
+console.log(marks[3]);
+console.log(marks[4]);
+console.log(marks[5]);
+console.log(marks[6]);
+
+console.log("Length of Array is", marks.length);
+marks[6] = 69;  // add value in array
+marks[0] = 66;  // change value in array
+console.log(marks);
+
+console.log(typeof marks);
