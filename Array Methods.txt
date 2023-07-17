@@ -1,0 +1,19 @@
+let num = [1, 3, 6, 24, 4];
+let b = num.toString();   // convert array into string
+console.log(b);
+
+let c = num.join("_");
+console.log(c , typeof c);
+
+// num.pop();     // pop last element from array
+// let r = num.pop();   // return the popped element
+// console.log(num , r);
+
+// let k = num.push(88)  // returns new array length
+// console.log(num, k);
+
+// let a = num.shift();  // remove and returns first element of array
+// console.log(a , num);
+
+let m = num.unshift(53);  // add element at the begining of array and return length
+console.log(m , num);
