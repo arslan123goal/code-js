@@ -17,3 +17,42 @@ console.log(c , typeof c);
 
 let m = num.unshift(53);  // add element at the begining of array and return length
 console.log(m , num);
+
+
+
+let number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+delete number[0];
+console.log(number);
+console.log(number.length);  // length remain same
+
+// concat method
+let m1 = [1,2,3];
+let m2 = [4,5,6];
+let m3 = [7,8,9];
+
+console.log(m1.concat(m2, m3));  // concat method doesn't change original array
+
+// sort method
+let compare = (a, b)=>{
+  // return a-b;  // ascending order
+  return b-a;  // descending order
+}
+let numberz = [1, 2, 13, 4, 65, 62, 7, 18, 29];
+// numberz.sort();
+numberz.sort(compare);
+
+// numberz.reverse();   // reverse array
+console.log(numberz);
+
+// splice and slice method
+let numbers = [1, 2, 13, 4, 65, 62, 7, 18, 29];
+numbers.splice(2, 3, 1021, 1022, 1023, 1024, 1025);
+// let deleted_values = numbers.splice(2, 3, 1021, 1022, 1023, 1024, 1025);
+console.log(numbers);
+// console.log(deleted_values, typeof deleted_values);
+
+
+let m = [1, 2, 13, 4, 65, 62, 7, 18, 29];
+// let am = m.slice(3);
+let am = m.slice(3, 5);
+console.log(am);
