@@ -1,0 +1,28 @@
+let num = [2, 16, 54, 4, 1];
+
+// for(let i=0; i<num.length; i++)
+//   {
+//     console.log(num[i]);
+//   }
+
+// forEach loop
+num.forEach((element) => {
+    console.log(element * element);
+  })
+
+// Aarry.form
+let name = "Aarry";
+let arr = Array.from(name);   // create array from this string
+console.log(arr);
+
+// for of loop with array
+for(let i of num)
+  {
+    console.log(i);
+  }
+
+// for in loop with array
+for(let item in num)
+  {
+    console.log(num[item]);
+  }
