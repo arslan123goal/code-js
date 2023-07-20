@@ -56,3 +56,43 @@ let m = [1, 2, 13, 4, 65, 62, 7, 18, 29];
 // let am = m.slice(3);
 let am = m.slice(3, 5);
 console.log(am);
+
+
+
+let arr = [45, 32, 47];
+
+// Array map method
+
+// let a = arr.map((value,) => {
+// let a = arr.map((value, index) => {
+let a = arr.map((value, index,  array) => {
+  console.log(value, index, array);
+  return value + 1;
+})
+console.log(a);
+// console.log(arr);
+
+
+// Array filter method
+
+let arr2 = [31, 42, 67, 0, 3, 9];
+let a2 = arr2.filter((value) => {
+  return value < 10;
+})
+console.log(a2);
+// console.log(arr2);
+
+
+// Array reduce method
+let arr3 = [1, 2, 3, 5, 3, 2, 1]
+let a3 = arr3.reduce((val1, val2) => {
+  return val1 + val2;
+})
+console.log(a3);
+
+// can also do in this way 
+// let func = (h1, h2) => {
+//   return h1+h2;
+// }
+// let m = arr3.reduce(func);
+// console.log(m);
